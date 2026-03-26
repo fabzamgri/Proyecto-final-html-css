@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.Hero-section {
+    width: auto;
+    padding: 20px;
+    border: 10px ridge rgb(232, 58, 58);
+    margin: 0px;
+    
+    /*cambiar a background-image despues*/
+    background-image: url(iesCaminasBackgroundImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Hero-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    
+}
+
+
+.Indices ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+    list-style: none;
+}
+
+.Indices a {
+    text-decoration: none;
+    color: white;
+}
+
+.Main-section {
+    width: 60%;
+    background-color: rgba(177, 212, 200, 0.537);
+    border-radius: 15px;
+    margin: 40px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    justify-content: center;
+}
+
+.Main-section table {
+    margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+    .Indices ul {
+        flex-direction: column;
+    }
+}
